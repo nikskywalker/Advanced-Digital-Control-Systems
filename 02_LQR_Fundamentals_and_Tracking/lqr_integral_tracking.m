@@ -72,11 +72,11 @@ disp('State Feedback Gain (Kx):'), disp(Kx);
 t_sim = 4;
 
 % Execute the Simulink model.
-% IMPORTANT: Ensure the 'LAB04_Ex2.slx' file is in the same directory.
+% IMPORTANT: Ensure the 'lqr_integral_tracking_scheme' file is in the same directory.
 try
-    out = sim('LAB04_Ex2');
+    out = sim('lqr_integral_tracking_scheme');
 catch
-    warning('Simulink file ''LAB04_Ex2.slx'' not found. Simulation skipped.');
+    warning('Simulink file ''lqr_integral_tracking_scheme'' not found. Simulation skipped.');
     return;
 end
 

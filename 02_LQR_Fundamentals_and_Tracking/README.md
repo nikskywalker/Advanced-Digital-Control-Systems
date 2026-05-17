@@ -42,6 +42,6 @@ This observation serves as the theoretical motivation for moving toward **Constr
 ## Repository Structure
 
 * `lqr_zero_regulation.m`: Discretization, reachability/observability checks, and DARE optimization for zero regulation.
-* `LAB04_Ex1.slx`: Simulink model executing the zero regulation closed-loop simulation.
+* `lqr_zero_regulation_scheme.slx`: Simulink model executing the zero regulation closed-loop simulation.
 * `lqr_integral_tracking.m`: Augmented state space formulation for constant reference tracking and actuator demand analysis.
-* `LAB04_Ex2.slx`: Simulink model executing the integral tracking control loop.
+* `lqr_integral_tracking_scheme.slx`: Simulink model executing the integral tracking control loop.

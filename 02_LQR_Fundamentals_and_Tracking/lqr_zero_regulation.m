@@ -95,11 +95,11 @@ sys_x = ss(A, B, eye(2), 0);
 t_sim = 7;
 
 % Execute the Simulink model.
-% IMPORTANT: Ensure the 'LAB04_Ex1.slx' file is in the same directory.
+% IMPORTANT: Ensure the 'lqr_zero_regulation' file is in the same directory.
 try
-    out = sim('LAB04_Ex1');
+    out = sim('lqr_zero_regulation_scheme');
 catch
-    warning('Simulink file ''LAB04_Ex1.slx'' not found. Simulation skipped.');
+    warning('Simulink file ''lqr_zero_regulation_scheme'' not found. Simulation skipped.');
     return;
 end
 
